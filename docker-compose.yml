@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  smallbot:
+    image: smallbot:release
+    user: "1000"
+    volumes:
+      - ./ros_ws:/opt/smallbot
+    environment:
+      - ROS_AAA=BBB
+    devices:
+      - /dev/spidev0.0
+      - /dev/spidev0.1
+      - /dev/gpiochip0
+      - /dev/ttyS0
+    command: roscore

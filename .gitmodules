@@ -1,0 +1,9 @@
+[submodule "src/bmi088-ros-driver"]
+	path = src/bmi088-ros-driver
+	url = git@github.com:esac-slam-20/bmi088-ros-driver.git
+[submodule "src/xv_11_laser_driver"]
+	path = src/xv_11_laser_driver
+	url = git@github.com:esac-slam-20/xv_11_laser_driver.git
+[submodule "src/smallBotRosDriver"]
+	path = src/smallBotRosDriver
+	url = git@github.com:esac-slam-20/smallBotRosDriver.git
